@@ -19,16 +19,19 @@ html,body {
 }
 
 body {
-  margin:0;
-  background: var(--bg);
+  margin: 0;
+
+  background: linear-gradient(135deg, rgba(0,121,107,0.07), rgba(212,175,55,0.03)),
+              url('background.jpg') center/cover no-repeat fixed;
   color: #0b2a28;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-  padding:24px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 /* Container */
 .container {
@@ -206,3 +209,4 @@ body {
     gap:6px; 
   }
 }
+
