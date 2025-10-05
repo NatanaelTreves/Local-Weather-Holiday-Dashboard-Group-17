@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Local Weather & Holiday Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 class="logo">Local Weather & Holiday Dashboard</h1>
+      <p class="subtitle">Live time, weather, holidays & weekend countdown</p>
+    </header>
+
+    <section class="grid">
+      <article class="card clock-card">
+        <h2>Local Time</h2>
+        <div id="time" class="big-time" aria-live="polite">--:--:--</div>
+        <div id="date" class="small-text">Loading date...</div>
+      </article>
+
+      <article class="card weather-card">
+        <h2>Weather</h2>
+        <div class="weather-content">
+          <div id="weather-main" class="weather-main">
+            <div id="weather-icon" class="weather-icon">☁️</div>
+            <div>
+              <div id="temp" class="big-time">--°C</div>
+              <div id="conditions" class="small-text">Loading...</div>
+            </div>
+          </div>
+          <div class="weather-meta">
+            <div id="location" class="small-text">Location: Auto-detected</div>
+            <div id="feelslike" class="small-text">Feels like: --</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card holidays-card">
+        <h2>Upcoming Holidays</h2>
+        <ul id="holidays-list" class="holidays-list">
+          <li>Loading holidays…</li>
+        </ul>
+      </article>
+
+      <article class="card countdown-card">
+        <h2>Weekend Countdown</h2>
+        <div id="countdown" class="countdown">Loading countdown…</div>
+        <small class="small-text">Next Saturday 00:00</small>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <small>Made with <span class="gold">♥</span> • Theme: <span class="accent">Group </span>,17</small>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
