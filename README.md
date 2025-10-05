@@ -95,7 +95,7 @@ Open index.html in any modern browser.
 
 (Optional) Add your OpenWeather API key in script.js:
 
-const OPENWEATHER_API_KEY = "your_api_key_here";
+const OPENWEATHER_API_KEY = "????????";
 
 
 Ensure holidays.json is in the same directory for proper holiday loading.
